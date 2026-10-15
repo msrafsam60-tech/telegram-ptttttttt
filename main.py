@@ -13,10 +13,10 @@ import os
 import math
 
 # 🧠 OWNER ID সেট করুন
-OWNER_ID = ""
+OWNER_ID = "6753121703"
 
 # 🧠 তোমার নতুন বট টোকেন বসাও নিচে 👇
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("8014931413:AAHz8NKUKZ5l8m2yT-417qiaLOd2_g2xXbQ")
 
 # 🗂 ডাটা রাখার জন্য Dictionary
 user_channels = {}  # {user_id: "@channelusername"}
