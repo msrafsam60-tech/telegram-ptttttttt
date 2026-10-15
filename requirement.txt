@@ -1,11 +1,5 @@
 pyTelegramBotAPI
 requests
-statistics
 python-dateutil
 pytz
 certifi
-
-
-telebot install & restart command ⤵️
-
-pip install --upgrade pip && pip install -r requirements.txt && python main.py
