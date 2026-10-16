@@ -25,7 +25,7 @@ from telebot.types import (
 # ================================================================
 #  CONFIGURATION  —  শুধু এখানে পরিবর্তন করুন
 # ================================================================
-BOT_TOKEN = "8910285497:AAHzHVsLXYm26RvBC9u9v12LkrDd6140Z9g"
+BOT_TOKEN = "8911633648:AAHqm_jr0Enb0Q4f4Wr0Ex2nqb1XLNGt7gQ"
 OWNER_ID  = 6753121703              # ← আপনার Telegram User ID দিন
 
 bot = telebot.TeleBot(BOT_TOKEN, threaded=True)
