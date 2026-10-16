@@ -1,6 +1,5 @@
 
 import os
-import sys
 import telebot
 import threading
 import time
@@ -12,11 +11,8 @@ from telebot.types import (
     InlineKeyboardMarkup, InlineKeyboardButton
 )
 
-# ================================================================
-#  CONFIGURATION  —  শুধু এখানে পরিবর্তন করুন
-# ================================================================
-BOT_TOKEN = "8911633648:AAHqm_jr0Enb0Q4f4Wr0Ex2nqb1XLNGt7gQ"
-OWNER_ID  = 6753121703              # ← আপনার Telegram User ID দিন
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8704586292:AAH6h2nMwrC36ItiqAJkye8P7G7cjuUBzeg")
+OWNER_ID  = int(os.environ.get("OWNER_ID", "8473134685"))
 
 bot = telebot.TeleBot(BOT_TOKEN, threaded=True)
 
