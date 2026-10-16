@@ -1,16 +1,6 @@
-"""
-╔══════════════════════════════════════════════════════════════╗
-║          WINGO SIGNAL BOT - Python Version                  ║
-║          Converted from main.js (Cloudflare Worker)         ║
-║                                                              ║
-║  NEW FEATURES:                                               ║
-║  ✅ Auto Period (No manual entry needed)                     ║
-║  ✅ Win/Loss Check via Real API                              ║
-║  ✅ Live Countdown Timer Bar (per-second update)             ║
-║  ✅ Lottery 200 WinGo Advanced Prediction Logic              ║
-╚══════════════════════════════════════════════════════════════╝
-"""
 
+import os
+import sys
 import telebot
 import threading
 import time
