@@ -1,5 +1,2 @@
 pyTelegramBotAPI
 requests
-python-dateutil
-pytz
-certifi
